@@ -25,7 +25,8 @@ document.addEventListener("DOMContentLoaded", function () {
 
         // If all checks pass, proceed with sign-up or other actions here
         // For now, let's just print a success message to the console
-        console.log(emailInput);
+        console.log(emailInput.value.trim());
+        console.log(passwordInput);
         console.log("Sign up successful!");
     });
 });
